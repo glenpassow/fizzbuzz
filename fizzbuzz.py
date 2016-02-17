@@ -44,3 +44,18 @@ Fizz
 Fizz
 Buzz
 """
+cycles = int(input("How many numbers shall we print? "))
+fizzMults = int(input("For multiples of what number shall we print 'Fizz'? "))
+buzzMults = int(input("For multiples of what number shall we print 'Buzz'? "))
+x = 1
+
+while x <= cycles
+    if x / fizzMults == 1 and x / buzzMults == 1:
+        print (FizzBuzz)
+    elif x / fizzMults == 1:
+        print(Fizz)
+    elif x / buzzMults == 1:
+        print(Buzz)
+    else:
+        print(x)
+    x + 1
