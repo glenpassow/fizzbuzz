@@ -50,11 +50,11 @@ buzzMults = int(input("For multiples of what number shall we print 'Buzz'? "))
 x = 1
 
 while x <= cycles :
-    if x / fizzMults == 1 and x / buzzMults == 1:
+    if x % == 0 and x % buzzMults == 0:
         print (FizzBuzz)
-    elif x / fizzMults == 1:
+    elif x % fizzMults == 0:
         print(Fizz)
-    elif x / buzzMults == 1:
+    elif x % buzzMults == 0:
         print(Buzz)
     else:
         print(x)
