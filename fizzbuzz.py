@@ -53,9 +53,9 @@ while x <= cycles :
     if x % fizzMults == 0 and x % buzzMults == 0:
         print (FizzBuzz)
     elif x % fizzMults == 0:
-        print(Fizz)
+        print("Fizz")
     elif x % buzzMults == 0:
-        print(Buzz)
+        print("Buzz")
     else:
         print(x)
     x = x + 1
